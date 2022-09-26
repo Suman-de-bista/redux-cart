@@ -1,0 +1,147 @@
+.cart li{
+    /* display: flex; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 4px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    padding: 10px;
+}
+.cart h1{
+    text-align: center;
+    margin: 40px 0;
+}
+.cart img{
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* height: 15vh; */
+}
+.itemName{
+    width: 25%;
+}
+
+.itemName h3{
+    width: 100%;
+    text-align: center ;
+}
+
+
+.cart ul{
+    width: 80%;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.cart button{
+    border: none;
+    background-color: white;
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+}
+.cart .quantityBtns{
+    display: flex;
+    width: 10%;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    height: 40px;
+}
+
+.cart .quantityBtns button{
+    color: black;
+    
+} 
+
+.cartEmpty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cartEmpty a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.price,
+.total{
+    width: 10%;
+}
+.price h4{
+    text-align: left;
+}
+.total h4{
+    text-align: right;
+}
+.subtotal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    margin: auto;
+}
+.subtotal h2{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.subtotal h2 span{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 10px;
+}
+.checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+    margin: 20px auto;
+}
+.checkout a{
+    width: 30%;
+    padding: 0 20px;
+    text-decoration: none;
+    margin: 20px 0;
+    font-size: 18px;
+    color: gray;
+    display: flex;
+    align-items: center;
+
+}
+
+.checkout button{
+    width:30%;
+    color: white;
+    background-color: #1976d2;
+    padding: 8px 0px;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+.cart button:hover{
+    font-size: 28px;
+}
+
+.checkout button:hover{
+    background-color: #28527c;
+    font-size: 22px !important;
+}
